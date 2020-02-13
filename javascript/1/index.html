@@ -10,7 +10,37 @@
 </head>
 <body>
 
-    <!--Your code is here-->
+    <div class="container">
+        <div class="header">Tip Calculator</div>
+        <div class="content">
+            <div id="error"></div>
+            <div class="row">
+                <div class="title">How Much Was Your Bill?</div>
+                <div class="input-row">
+                    <div class="icon"><i class="fas fa-dollar-sign"></i></div>
+                    <input type="number" id="bill" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="title">How Many People Sharing The Bill?</div>
+                <div class="input-row">
+                    <div class="icon"><i class="fas fa-user"></i></div>
+                    <input type="number" id="people" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="title">How Was Your Service?</div>
+                <select id="percentage">
+                    <option selected name="" value="0">Choose...</option>
+                    <option name="great" value="20">Great - 20%</option>
+                    <option name="good" value="10">Good - 10%</option>
+                    <option name="bad" value="2">Bad - 2%</option>
+                </select>
+            </div>
+            <button onclick="calc()" class="calc">Calculate</button>
+            <div id="show-tip"></div>
+        </div>
+    </div>
     
 </body>
 </html>
