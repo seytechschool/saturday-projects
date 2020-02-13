@@ -6,5 +6,6 @@
 
 ## Javascript Projects
 
-1. [Tip Calculator](https://github.com/seytechschool/saturday-projects/tree/solutions/javascript/1)
+1. [Tip Calculator](https://github.com/seytechschool/saturday-projects/tree/master/javascript/1)
+
 ![Tip Calculator](./javascript/1/images/tip.png)
