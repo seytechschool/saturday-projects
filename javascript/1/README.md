@@ -36,3 +36,21 @@
 6. Clear text color: `#721c24`
 7. Use FontAwesome icons
 8. Don't forget commenting your code
+9. Error messages: 
+```markdown
+`Bill Amount Cannot Be Blank`
+
+`Number Of Users Must Be Greater Than Zero`
+
+`You Must Select A Service`
+
+```
+10. Tip messages
+```markdown
+`Tip Amount $20`
+
+`Total Amount $100`
+
+`Each Person Owes $12`
+
+```
