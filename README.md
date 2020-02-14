@@ -6,6 +6,10 @@
 
 ## Javascript Projects
 
-1. [Tip Calculator](https://github.com/seytechschool/saturday-projects/tree/master/javascript/1)
+1. [Off-canvas menu](https://github.com/seytechschool/saturday-projects/tree/master/javascript/off-canvas-menu)
 
-![Tip Calculator](./javascript/1/images/tip.png)
+![off-canvas-menu](./javascript/off-canvas-menu/images/off-canvas-menu.png)
+
+2. [Tip Calculator](https://github.com/seytechschool/saturday-projects/tree/master/javascript/tip-calculator)
+
+![Tip Calculator](./javascript/tip-calculator/images/tip.png)
