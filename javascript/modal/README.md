@@ -20,7 +20,7 @@
 ## Video 
 
 1. `https://www.youtube.com/watch?v=mnHPRlMTVRQ`
-2. [![off-canvas-menu](./images/modal.png)](https://www.youtube.com/watch?v=mnHPRlMTVRQ)
+2. [![modal](./images/modal.png)](https://www.youtube.com/watch?v=mnHPRlMTVRQ)
 
 
 

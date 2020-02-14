@@ -10,6 +10,10 @@
 
 ![off-canvas-menu](./javascript/off-canvas-menu/images/off-canvas-menu.png)
 
-2. [Tip Calculator](https://github.com/seytechschool/saturday-projects/tree/master/javascript/tip-calculator)
+2. [Modal](https://github.com/seytechschool/saturday-projects/tree/master/javascript/modal)
+
+![modal](./javascript/modal/images/modal.png)
+
+3. [Tip Calculator](https://github.com/seytechschool/saturday-projects/tree/master/javascript/tip-calculator)
 
 ![Tip Calculator](./javascript/tip-calculator/images/tip.png)
