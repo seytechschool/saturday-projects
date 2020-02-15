@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+}
+
+button {
+    margin: 50px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: grey;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: teal;
+    transition: 0.3s;
+}
+
+.modal {
+    width: 40%;
+    height: 30vh;
+    display: none;
+}
+
+.modal header, .modal footer {
+    height: 5vh;
+    background-color: #0d99a5;
+    color: #fefefe;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.modal main {
+    height: 10vh;
+    padding: 20px;
+}
+
+.modal header p, .modal footer p {
+    line-height: 5vh;
+}
+
+.modal main p {
+    line-height: 10vh;
+}
