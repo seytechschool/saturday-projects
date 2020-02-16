@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+}
+
+.sidebar {
+    position: fixed;
+    height: 100vh;
+    width: 0;
+    background-color: #111111;
+    font-size: 25px;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.sidebar a {
+    display: block;
+    text-decoration: none;
+    color: #818181;
+    margin-top: 60px;
+    margin-left: 15px;
+}
+
+.sidebar a .close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+main {
+    margin: 20px;
+    transition: 0.5s;
+}
+
+main a {
+    text-decoration: none;
+    color:#818181;
+}
+
+main a:hover {
+    color: black;
+}
+
+main a i, main h1, main p{
+    margin-bottom: 20px;
+}
