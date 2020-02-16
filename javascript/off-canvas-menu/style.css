@@ -5,7 +5,7 @@
 .sidebar {
     position: fixed;
     height: 100vh;
-    width: 0;
+    width: 350px;
     background-color: #111111;
     font-size: 25px;
     top: 0;
@@ -26,6 +26,7 @@
     position: absolute;
     right: 15px;
     top: 15px;
+    display: none;
 }
 
 .sidebar a:hover {
@@ -33,7 +34,7 @@
 }
 
 main {
-    margin: 20px;
+    margin: 20px 20px 20px 370px;
     transition: 0.5s;
 }
 
@@ -41,10 +42,6 @@ main a {
     text-decoration: none;
     color:#818181;
 }
-
-/* .main a i {
-    display: none;
-} */
 
 main a:hover {
     color: black;
@@ -54,8 +51,15 @@ main a i, main h1, main p{
     margin-bottom: 20px;
 }
 
-/* @media screen and (max-width: 900px) {
-    .main a i {
+.main a  {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .main a  {
         display: block;
     }
-} */
+    .sidebar a .close {
+        display: block;
+    }
+}
