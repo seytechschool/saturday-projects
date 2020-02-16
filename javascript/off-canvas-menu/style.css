@@ -42,6 +42,10 @@ main a {
     color:#818181;
 }
 
+/* .main a i {
+    display: none;
+} */
+
 main a:hover {
     color: black;
 }
@@ -49,3 +53,9 @@ main a:hover {
 main a i, main h1, main p{
     margin-bottom: 20px;
 }
+
+/* @media screen and (max-width: 900px) {
+    .main a i {
+        display: block;
+    }
+} */
