@@ -1,12 +1,14 @@
-var open = document.querySelector('.open');
-var close = document.querySelector('.close');
+var navBar = document.querySelector('#nav');
+var aside = document.querySelector('#side');
+var closeIcon = document.querySelector('#close');
+var openIcon = document.querySelector('#open');
 
-open.addEventListener('click', function () {
-    document.querySelector('nav').style.width = '350px';
-    document.querySelector('main').style.marginLeft = '370px';
-});
+closeIcon.addEventListener('click', function(event){
+    aside.style.margin ='0 20px 20px 20px';
+    navBar.style.display = 'none'
+})
 
-close.addEventListener('click', function () {
-    document.querySelector('nav').style.width = '0';
-    document.querySelector('main').style.marginLeft = '20px';
-});
+openIcon.addEventListener('click', function(event) {
+    aside.style.margin = '0 20px 20px 280px';
+    navBar.style.display = 'block'
+})

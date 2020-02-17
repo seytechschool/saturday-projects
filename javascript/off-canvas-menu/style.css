@@ -1,65 +1,78 @@
-* {
+body {
     margin: 0;
 }
-
-.sidebar {
-    position: fixed;
+.inline {
     height: 100vh;
-    width: 350px;
-    background-color: #111111;
-    font-size: 25px;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    transition: 0.5s;
+    box-sizing: border-box;
 }
-
-.sidebar a {
-    display: block;
-    text-decoration: none;
+.menu {
+    margin-top: 0;
+    
+}
+.clear {
+    clear: both;
+}
+nav {
+    position: fixed;
+    background-color: #111;
+    width: 270px;
     color: #818181;
-    margin-top: 60px;
-    margin-left: 15px;
+    font-size: 30px;
+    top: 0;
+}
+aside {
+    margin: 0 20px 20px 280px;
+    box-sizing: border-box;
+    transition: .5s;
 }
 
-.sidebar a .close {
-    position: absolute;
-    right: 15px;
-    top: 15px;
+.ic {
+    color: #818181;
+    padding: 20px;
+    font-size: 35px;
+}
+#close {
+    float:right;
+    border: none;
+    background: none;
     display: none;
 }
-
-.sidebar a:hover {
+#open {
+    border: none;
+    background: none;
+    padding-top: 20px;
+    display: none;
+}
+ul {
+    clear: both;
+    padding-top: 20px;
+}
+li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+.pad-left {
+    margin: 20px 30px 20px 20px;
+}
+ul li:hover {
     color: #f1f1f1;
+    cursor: pointer;
 }
-
-main {
-    margin: 20px 20px 20px 370px;
-    transition: 0.5s;
+.fa-times:hover {
+    color: #f1f1f1;
+    cursor: pointer;
 }
-
-main a {
-    text-decoration: none;
-    color:#818181;
+.fa-bars:hover {
+    color: #111;
+    cursor: pointer;
+    border: none;
+    background: none;
 }
-
-main a:hover {
-    color: black;
-}
-
-main a i, main h1, main p{
-    margin-bottom: 20px;
-}
-
-.main a  {
-    display: none;
-}
-
-@media screen and (max-width: 900px) {
-    .main a  {
+@media screen and (max-width: 1000px) {
+    #close {
         display: block;
     }
-    .sidebar a .close {
+    #open {
         display: block;
     }
 }
