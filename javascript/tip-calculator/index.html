@@ -5,12 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
+    
     <title>TIP CALCULATOR</title>
 </head>
 <body>
 
     <!--Your code is here-->
+
+    <div class="container">
+        <header>
+            <h1>Tip Calculator</h1>
+        </header>
+
+        <div class="msg"></div>
+
+        <div class="info">
+            <label for="bill" class="bill">How much was your bill?</label>
+            <input type="number" id="bill" name="bill" required>
+
+            <label for="people" class="people">How many people sharing the bill?</label>
+            <input type="number" id="people" name="people" required>
+
+            <label for="amount" class="amount">How was your service?</label>
+            <select id="amount" name="amount" required>
+                <option value="">Choose...</option>
+                <option value="great">Great-20%</option>
+                <option value="good">Good-10%</option>
+                <option value="bad">Bad-2%</option>
+            </select>
+
+            <button type="submit" class="btn">Calculate</button>
+        </div>
+
+        <div class="result"></div>
+
+    </div>
     
+
+
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
