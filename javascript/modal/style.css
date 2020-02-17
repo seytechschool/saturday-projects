@@ -1,0 +1,58 @@
+.container{
+    margin: 100px auto;
+    border: 1px solid grey;
+    width: 80%;
+    display: none;
+}
+
+.btn{
+    background-color: grey;
+    color: #fefefe;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 130px;
+}
+#push{
+    padding: 20px;
+}
+
+
+.btn:hover{
+    background-color: #0d99a5;
+    cursor: pointer;
+    box-shadow: 2px 2px 1px 1px #41414146;
+    transition: all .3s;
+}
+
+header, footer{
+    background-color: #0d99a5;
+    height: 50px;
+    color: #fefefe;
+    font-size: 20px;
+}
+nav{
+    height: 60px;
+    background-color:#fefefe;
+}
+
+header,footer,nav{
+    padding: 15px;
+    box-sizing: border-box;
+    
+    
+
+}
+#close{
+    float: right;
+    border: none;
+    background:none;
+    font-size: 20px;
+    bottom: 5px;
+    color: #fefefe;
+}
+
+#close:hover{
+    color: black;
+    cursor: pointer;
+}
