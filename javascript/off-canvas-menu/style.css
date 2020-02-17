@@ -1,77 +1,81 @@
-body{
+body {
     margin: 0;
 }
-
-.sidebar {
-    position: fixed;
+.inline {
     height: 100vh;
-    width: 350px;
-    background-color: #111111;
-    font-size: 25px;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    transition: 0.5s;
+    box-sizing: border-box;
 }
-
-.sidebar li {
-    display: block;
-    text-decoration: none;
+.menu {
+    margin-top: 0;
+    
+}
+.clear {
+    clear: both;
+}
+nav {
+    position: fixed;
+    background-color: #111;
+    width: 270px;
     color: #818181;
-    margin-top: 60px;
-    margin-left: 15px;
+    font-size: 30px;
+    top: 0;
+    transition: all .3s;
+}
+aside {
+    margin: 0 20px 20px 280px;
+    box-sizing: border-box;
+    transition: all .3s;
 }
 
-.sidebar li .close {
-    position: absolute;
-    right: 15px;
-    top: 15px;
-    display: none;
+.ic {
+    color: #818181;
+    padding: 20px;
+    font-size: 35px;
 }
+#close {
+    float:right;
+    border: none;
+    background: none;
+    visibility: hidden;
+    transition: all .3s;
+}
+#open {
+    border: none;
+    background: none;
+    padding-top: 20px;
+    visibility: hidden;
 
-.sidebar li:hover {
+}
+ul {
+    clear: both;
+
+}
+li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+.pad-left {
+    margin: 20px 30px 20px 20px;
+}
+ul li:hover {
     color: #f1f1f1;
     cursor: pointer;
 }
-
-main {
-    margin: 20px 20px 20px 370px;
-    transition: 0.5s;
-}
-
-main a {
-    text-decoration: none;
-    color:#818181;
-}
-
-main a:hover {
-    color: black;
+.fa-times:hover {
+    color: #f1f1f1;
     cursor: pointer;
 }
-
-main a i, main h1, main p{
-    margin-bottom: 20px;
+.fa-bars:hover {
+    color: #111;
+    cursor: pointer;
+    border: none;
+    background: none;
 }
-
-.main a  {
-    display: none;
-}
-
-@media screen and (max-width: 1024px) {
-    .main a  {
-        display: block;
+@media screen and (max-width: 900px) {
+    #close {
+        visibility: visible;
     }
-    .sidebar li .close {
-        display: block;
+    #open {
+        visibility: visible;
     }
 }
-/* iPad Landscape
-@media  screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    /* CSS */
-    /* .main a  {
-        display: block;
-    }
-    .sidebar li .close {
-        display: block;
-    }
-    } */
