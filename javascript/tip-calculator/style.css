@@ -1,3 +1,52 @@
+* {
+    margin: 0;
+}
+
 body {
     background-color: #262933;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    width: 25%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20vh;
+}
+
+.container header {
+    color: white;
+    background-color: #00a3e1;
+    text-align: center;
+    padding: 10px 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+input, select {
+    display: block;
+    width: 90%;
+    height: 3vh;
+}
+
+.info {
+    margin-left: 5%;
+    margin-top: 30px;
+}
+.info input, .info select {
+    margin-top: 10px;
+}
+
+#bill, #people {
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #00a3e1;
+    padding: 10px 35px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    margin: 3vh 0 3vh 130px;
 }
