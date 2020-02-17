@@ -1,4 +1,4 @@
-* {
+body{
     margin: 0;
 }
 
@@ -14,7 +14,7 @@
     transition: 0.5s;
 }
 
-.sidebar a {
+.sidebar li {
     display: block;
     text-decoration: none;
     color: #818181;
@@ -22,15 +22,16 @@
     margin-left: 15px;
 }
 
-.sidebar a .close {
+.sidebar li .close {
     position: absolute;
     right: 15px;
     top: 15px;
     display: none;
 }
 
-.sidebar a:hover {
+.sidebar li:hover {
     color: #f1f1f1;
+    cursor: pointer;
 }
 
 main {
@@ -45,6 +46,7 @@ main a {
 
 main a:hover {
     color: black;
+    cursor: pointer;
 }
 
 main a i, main h1, main p{
@@ -55,11 +57,21 @@ main a i, main h1, main p{
     display: none;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
     .main a  {
         display: block;
     }
-    .sidebar a .close {
+    .sidebar li .close {
         display: block;
     }
 }
+/* iPad Landscape
+@media  screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* CSS */
+    /* .main a  {
+        display: block;
+    }
+    .sidebar li .close {
+        display: block;
+    }
+    } */
