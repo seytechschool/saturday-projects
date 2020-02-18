@@ -1,4 +1,4 @@
-var openButton = document.querySelector('.press');
+var openButton = document.querySelector('.hit');
 var modal = document.querySelector('.modal');
 var closeButton = document.querySelector('#close');
 
@@ -15,9 +15,3 @@ openButton.addEventListener('click', function(event) {
 closeButton.addEventListener('click', function(event) {
     modal.style.display = 'none'
 })
-
-// function close() {
-//     modal.style.display = 'none';
-// }
-
-
