@@ -1,8 +1,7 @@
 body {
     margin: 0;
 }
-.inline {
-    /* float: left; */
+nav, aside {
     height: 100vh;
     box-sizing: border-box;
 }
@@ -22,14 +21,13 @@ nav {
     top: 0;
 }
 aside {
-    width: 70%;
     margin: 0 20px 20px 280px;
     box-sizing: border-box;
 }
 
 .ic {
     color: #818181;
-    padding: 20px;
+    padding: 10px;
     font-size: 35px;
 }
 #close {
@@ -41,12 +39,12 @@ aside {
 #open {
     border: none;
     background: none;
-    padding-top: 20px;
+    padding-top: 10px;
     display: none;
 }
 ul {
     clear: both;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 li {
     list-style: none;
@@ -69,15 +67,11 @@ ul li:hover {
     border: none;
     background: none;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
     #close {
         display: block;
     }
     #open {
         display: block;
     }
-    /* .pad-left {
-        margin: 20px 30px 20px 20px;
-    } */
-
 }
