@@ -4,13 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
+    <script src="https://use.fontawesome.com/1b7c152639.js"></script>
+    
     <title>TIP CALCULATOR</title>
 </head>
 <body>
 
     <!--Your code is here-->
     
+    <div class="box">
+        <div class="box-header">
+            Tip Calculator
+        </div>
+        <div class="message">
+
+        </div>
+
+        <p>How Much Was Your Bill?</p>
+        
+        <div class="box-input">
+            <span class="input-group-addon"><i class="fa fa-usd fa-fw dollar" aria-hidden="true"></i></span>
+            <input id="amount" type="text" placeholder="">
+          </div>
+        
+        <p>How Many People Sharing The Bill?</p>
+        
+        <div class="box-input">
+            <span class="input-group-addon"><i class="fa fa-user fa-fw user" aria-hidden="true"></i></span>
+            <input id="people" type="text" placeholder="">
+          </div>
+
+        <p>How Was Your Service?</p>
+        
+        <select id="grat">
+            <option value="choose">Choose...</option>
+            <option value="20">Great - 20%</option>
+            <option value="10">Good - 10%</option>
+            <option value="5">Bad - 5%</option>
+          </select>
+
+          <button id="btn">Calculate</button>
+
+          <div class = "info">
+              
+          </div>
+
+          <button id="clear">Clear <i class="fa fa-times" aria-hidden="true"></i></button>
+
+    </div>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
