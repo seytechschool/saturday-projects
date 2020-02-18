@@ -10,7 +10,27 @@
 </head>
 <body>
 
-    <!--Your code is here-->
+    <div class="main"> 
+        <form> 
+            <header> <h1>Tip Calculator </h1> </header>
+            
+            <div class="content"> <p> How Much Was Your Bill?</p>
+                <button type="submit"> $</button><input id="billPrice" type="text"/>
+                <p> How many people were sharing the Bill?</p>
+                <button type="submit"> P</button><input id="numberOfPeople" type="text"/>
+                <p> How Was Your Service?</p>
+                <select id="tipInfo">
+                    <option disabled selected value="0">Choose...</option>
+                    <option value="0.3">30 - Above beyond</option>
+                    <option value="0.2">20 - Excellent</option>
+                    <option value="0.1">10 - Nice</option>
+                    <!-- <option value="0"> No Tip </option> -->
+                </select>
+            </div>
+            
+            <footer> <button id="calculate" onclick="calcBill()"><strong>Calculate</strong> </button></footer>
+        </form>
+    </div>
     
 </body>
 </html>
