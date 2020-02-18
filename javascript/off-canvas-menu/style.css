@@ -1,3 +1,69 @@
+
+
+body {
+    margin:0;
+}
+.sideNav {
+    width:0;
+    height: 100vh; 
+    background-color: #111;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden; 
+    padding-top: 70px; 
+    transition: 0.5s; 
+  }
+  
+ 
+  .sideNav a {
+    display: block;
+    margin-left:10px;
+    padding:15px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    transition: 0.3s;
+  }
+  
+  
+  .sideNav a:hover {
+    color: #f1f1f1;
+  }
+
+  .sideNav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 50px;
+  }
+  
+  
+ 
+  #content {
+    transition: .5s;
+    padding: 35px;
+  }
+  #content p {
+      font-size: 20px;
+  }
+
+  .fa-bars {
+    color:#818181;
+    font-size:40px;
+    cursor:pointer;
+
+  }
+
+ .fa-bars:hover {
+    color:#111;
+  }
+  @media screen and (max-height: 685px) {
+    .sideNav {padding-top: 15px;}
+    .sideNav a {font-size: 18px;}
+  }
+
 * {
     margin: 0;
 }
@@ -63,3 +129,4 @@ main a i, main h1, main p{
         display: block;
     }
 }
+
