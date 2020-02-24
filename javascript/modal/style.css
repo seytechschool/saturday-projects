@@ -1,65 +1,46 @@
-* {
-    margin: 0;
+container {
+  border: solid 1px grey;
+  margin: 100px auto;
+  width: 80%;
+  display: none;
 }
-
-.sidebar {
-    position: fixed;
-    height: 100vh;
-    width: 350px;
-    background-color: #111111;
-    font-size: 25px;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    transition: 0.5s;
+header, footer {
+  background-color: #0d99a5;
+  height: 50px;
+  padding: 10px;
+  box-sizing: border-box;
+  color: white;
+  font-size: 20px;
 }
-
-.sidebar a {
-    display: block;
-    text-decoration: none;
-    color: #818181;
-    margin-top: 60px;
-    margin-left: 15px;
+nav {
+  height: 70px;
+  padding: 15px;
+  box-sizing: border-box;
 }
-
-.sidebar a .close {
-    position: absolute;
-    right: 15px;
-    top: 15px;
-    display: none;
+#close {
+  float: right;
+  border: none;
+  background: none;
+  color: white;
+  font-size: 24px;
 }
-
-.sidebar a:hover {
-    color: #f1f1f1;
+.click {
+  padding: 20px;
 }
-
-main {
-    margin: 20px 20px 20px 370px;
-    transition: 0.5s;
+.btn {
+  background-color: grey;
+  color: #fefefe;
+  padding: 10px;
+  font-size: 16px;
 }
-
-main a {
-    text-decoration: none;
-    color:#818181;
+.btn:hover {
+  background-color: #0d99a5;
+  color: #fefefe;
+  cursor: pointer;
+  box-shadow: 2px 2px 1px 1px #919191;
+  transition: all .3s;
 }
-
-main a:hover {
-    color: black;
-}
-
-main a i, main h1, main p{
-    margin-bottom: 20px;
-}
-
-.main a  {
-    display: none;
-}
-
-@media screen and (max-width: 900px) {
-    .main a  {
-        display: block;
-    }
-    .sidebar a .close {
-        display: block;
-    }
+#close:hover {
+  color: black;
+  cursor: pointer;
 }
