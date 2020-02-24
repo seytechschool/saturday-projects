@@ -1,0 +1,46 @@
+container {
+  border: solid 1px grey;
+  margin: 100px auto;
+  width: 80%;
+  display: none;
+}
+header, footer {
+  background-color: #0d99a5;
+  height: 50px;
+  padding: 10px;
+  box-sizing: border-box;
+  color: white;
+  font-size: 20px;
+}
+nav {
+  height: 70px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+#close {
+  float: right;
+  border: none;
+  background: none;
+  color: white;
+  font-size: 24px;
+}
+.click {
+  padding: 20px;
+}
+.btn {
+  background-color: grey;
+  color: #fefefe;
+  padding: 10px;
+  font-size: 16px;
+}
+.btn:hover {
+  background-color: #0d99a5;
+  color: #fefefe;
+  cursor: pointer;
+  box-shadow: 2px 2px 1px 1px #919191;
+  transition: all .3s;
+}
+#close:hover {
+  color: black;
+  cursor: pointer;
+}
